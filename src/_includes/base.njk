@@ -50,6 +50,16 @@
     {% endif %}
 
     <meta property="og:title" content="{{ title }} - {{ site.title }}" />
+    {% if description %}
+      <meta property="og:description" content="{{ description }}" />
+    {% else %}
+      <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+    {# TODO: Add og:type #}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:image" content="/opengraph.png" />
+    {# TODO: Add og:locale #}
+    <meta property="og:site_name" content="{{ site.title }}" />
 
     <link href="/main.css" rel="stylesheet" />
 
