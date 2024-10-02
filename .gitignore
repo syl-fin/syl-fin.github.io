@@ -1,3 +1,6 @@
+# Site output
+_site/
+
 # Logs
 logs
 *.log

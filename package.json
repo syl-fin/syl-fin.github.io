@@ -1,0 +1,12 @@
+{
+  "name": "election-compass-2024",
+  "version": "0.0.0",
+  "description": "The website with the embedded election compass for the representative council and student council election 2024",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "license": "MIT",
+  "type": "module"
+}
