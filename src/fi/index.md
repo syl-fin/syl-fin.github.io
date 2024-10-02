@@ -1,5 +1,6 @@
 ---
 layout: home.njk
+permalink: '{{ "/" | makePath("fi") }}'
 title: Edustajistovaalien vaalikone 2024
 ---
 
