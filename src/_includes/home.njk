@@ -1,7 +1,20 @@
 <!doctype html>
 <html>
-  <head> </head>
-  <body>
-    {{ content | safe }}
+  <head>
+    <link href="/main.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-serif">
+    <main
+      class="prose container text-center md:prose-lg prose-headings:font-sans prose-headings:font-bold"
+    >
+      {{ content | safe }}
+    </main>
   </body>
 </html>
