@@ -1,10 +1,14 @@
 export default {
   en: {
     "/": "/en/",
-    "data-protection": "/en/data-protection/",
+    shs: "/en/shs/",
   },
   fi: {
     "/": "/",
-    "data-protection": "/tietosuoja/",
+    shs: "/shs/",
+  },
+  sv: {
+    "/": "/sv/",
+    shs: "/sv/shs/",
   },
 };
