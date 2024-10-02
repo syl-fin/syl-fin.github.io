@@ -11,6 +11,7 @@ export default {
   theme: {
     colors: {
       black: "#000000",
+      red: "#e12855",
     },
     container: {
       center: true,

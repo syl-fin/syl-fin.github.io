@@ -18,6 +18,8 @@ export default function (eleventyConfig) {
     },
   );
 
+  eleventyConfig.addPassthroughCopy({ "src/*.png": "/" });
+
   eleventyConfig.addWatchTarget("./tailwind.config.js");
 
   eleventyConfig.addTemplateFormats("css");

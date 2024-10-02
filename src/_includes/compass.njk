@@ -1,7 +1,5 @@
-<!doctype html>
-<html lang="{{ overrideLang if overrideLang else lang }}">
-  <head> </head>
-  <body>
-    {{ content | safe }}
-  </body>
-</html>
+---
+layout: base.njk
+---
+
+{{ content | safe }}

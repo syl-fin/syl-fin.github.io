@@ -1,20 +1,12 @@
-<!doctype html>
-<html>
-  <head>
-    <link href="/main.css" rel="stylesheet" />
+---
+layout: base.njk
+---
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Noto+Serif&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="font-serif">
-    <main
-      class="prose container text-center md:prose-lg prose-headings:font-sans prose-headings:font-bold"
-    >
-      {{ content | safe }}
-    </main>
-  </body>
-</html>
+<header class="container mb-10 mt-20 text-center">
+  <img class="mx-auto h-auto w-36 md:w-40" src="logo.png" />
+</header>
+<main
+  class="prose container text-center md:prose-lg prose-headings:font-sans prose-headings:font-bold hover:prose-a:text-red focus:prose-a:text-red"
+>
+  {{ content | safe }}
+</main>
