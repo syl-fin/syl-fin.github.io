@@ -7,6 +7,10 @@ import paths from "./src/_data/paths.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default function (eleventyConfig) {
+  eleventyConfig.ignores.add("src/en/shs.njk");
+  eleventyConfig.ignores.add("src/fi/shs.njk");
+  eleventyConfig.ignores.add("src/sv/shs.njk");
+
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "fi",
   });
