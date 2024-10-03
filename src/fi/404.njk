@@ -1,0 +1,43 @@
+---
+excludeFromSitemap: true
+layout: base.njk
+permalink: /404.html
+title: 404 Not Found
+---
+
+<header class="container mb-10 mt-20 text-center">
+  <img
+    alt="{{- t.logoAlt -}}"
+    class="mx-auto h-auto w-36 md:w-40"
+    src="/logo.png"
+  />
+</header>
+<main
+  class="prose container text-center md:prose-lg prose-headings:font-sans prose-headings:font-bold hover:prose-a:text-red focus:prose-a:text-red"
+>
+  <h1 class="my-6">404</h1>
+  <section lang="fi">
+    <h2 class="my-10">Ei löydy</h2>
+    <p>
+      Etsimääsi sivua ei löytynyt. Tämä voi johtua siitä, että sivu on poistettu
+      tai sen osoite on muuttunut. Voit palata
+      <a href="/">etusivulle</a>.
+    </p>
+  </section>
+  <section lang="sv">
+    <h2 class="my-10">Hittades inte</h2>
+    <p>
+      Den sida du söker kunde inte hittas. Det kan bero på att sidan har tagits
+      bort eller att adressen har ändrats. Du kan gå tillbaka till
+      <a href="/sv/">startsidan</a>.
+    </p>
+  </section>
+  <section lang="en">
+    <h2 class="my-10">Not Found</h2>
+    <p>
+      The page you are looking for could not be found. This could be because the
+      page has been removed or the address has changed. You can return to the
+      <a href="/en/">home page</a>.
+    </p>
+  </section>
+</main>
