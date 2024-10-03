@@ -1,0 +1,17 @@
+---
+layout: home.njk
+permalink: '{{ "/" | makePath("en") }}'
+title: Election Compass for the Representative Council Elections 2024
+---
+
+## Welcome to the election compass for the representative council elections 2024
+
+This year, representative council elections will be held in
+[the Student Union of the University of Helsinki](https://hyy.fi/en/student-union/our-organisation/representative-council/representative-council-elections/),
+[the Student Union of Hanken School of Economics (SHS)](https://shs.fi/en/student-union-2/administration/fullmaktige/),
+and
+[the Student Union of Tampere University](https://trey.fi/en/student-union/council-elections).
+The Representative Council is the highest decision-making body of a student
+union. For example, it decides on the student union’s finances and elects the
+student union’s board. You can find out more about your student union’s
+elections through the links above.
