@@ -18,3 +18,6 @@ Delegationen eller fullmäktige i SHS är den högsta beslutande organ i
 studentkåren. Den beslutar till exempel om studentkårens ekonomi och väljer
 studentkårens styrelse. Du kan läsa mer om din studentkårs delegation eller
 fullmäktige och valet på studentkårens webbplats via länkarna ovan.
+
+Valkompasserna levereras av
+[Finlands studentkårers förbund (FSF)](https://syl.fi/sv/).

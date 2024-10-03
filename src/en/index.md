@@ -17,3 +17,6 @@ The Representative Council is the highest decision-making body of a student
 union. For example, it decides on the student union’s finances and elects the
 student union’s board. You can find out more about your student union’s
 elections through the links above.
+
+The election compasses are provided by
+[National Union of University Students in Finland (SYL)](https://syl.fi/en/).

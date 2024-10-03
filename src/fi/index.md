@@ -18,4 +18,6 @@ ylioppilaskunnan taloudesta ja valitsee ylioppilaskunnan hallituksen. Voit lukea
 lisää tietoa oman ylioppilaskuntasi edustajistosta ja edustajistovaaleista
 ylioppilaskunnan kotisivuilta edellä olevien linkkien kautta.
 
+Vaalikoneet tarjoaa [Suomen ylioppilaskuntien liitto (SYL)](https://syl.fi).
+
 <!-- Alta löydät oman ylioppilaskuntasi edustajistovaalien vaalikoneen. -->
