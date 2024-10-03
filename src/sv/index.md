@@ -1,4 +1,6 @@
 ---
+changefreq: weekly
+date: git Last Modified
 layout: home.njk
 permalink: '{{ "/" | makePath("sv") }}'
 title: Valkompassen för studentkårers delegations- och fullmäktigeval 2024

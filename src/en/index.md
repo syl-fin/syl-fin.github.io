@@ -1,4 +1,6 @@
 ---
+changefreq: weekly
+date: git Last Modified
 layout: home.njk
 permalink: '{{ "/" | makePath("en") }}'
 title: Election Compass for the Representative Council Elections 2024
