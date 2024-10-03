@@ -6,9 +6,13 @@ title: Valkompassen för studentkårers delegations- och fullmäktigeval 2024
 
 ## Välkommen till valkompassen för studentkårers delegations- och fullmäktigeval 2024
 
-I delegations- och fullmäktigevalen väljs ledamöter till HUS och TREYs
-delegationer och SHS fullmäktige. Mandatperioden för delegationerna och
-fullmäktige som väljs nu är dock ett år. Delegationen (eller fullmäktige) är den
-högsta beslutande organ i studentkåren. Delegationen (eller fullmäktige)
-beslutar bland annat om studentkårens ekonomi och väljer studentkårens styrelse.
-Nedan hittar du valkompassen för din studentkårs val.
+I år ordnas delegationsval i
+[Studentkåren vid Helsingfors universitet (HUS)](https://hyy.fi/sv/studentkaren/organisation/delegationen/delegationsval/)
+och
+[Tampereen ylioppilaskunta (TREY)](https://trey.fi/ylioppilaskunta/edustajistovaalit)
+och fullmäktigevalet i
+[Svenska Handelshögskolans Studentkår (SHS)](https://shs.fi/studentkaren/administration/fullmaktige/).
+Delegationen eller fullmäktige i SHS är den högsta beslutande organ i
+studentkåren. Den beslutar till exempel om studentkårens ekonomi och väljer
+studentkårens styrelse. Du kan läsa mer om din studentkårs delegation eller
+fullmäktige och valet på studentkårens webbplats via länkarna ovan.
