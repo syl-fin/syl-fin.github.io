@@ -6,4 +6,12 @@ export default {
       "Election compass for the student unions' representative and student council elections 2024, provided by National Union of University Students in Finland (SYL)",
     title: "SYL",
   },
+  t: {
+    footer: {
+      languageMenuLabel: "Site language",
+    },
+    logoAlt: "",
+    mainID: "main",
+    skipToContent: "Skip to contents",
+  },
 };

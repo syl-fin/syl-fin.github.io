@@ -10,3 +10,25 @@ layout: base.njk
 >
   {{ content | safe }}
 </main>
+<footer>
+  <div class="container">
+    {% if page.fileSlug !== "404" -%}
+      <ul
+        class="my-12 flex flex-col items-center md:my-8"
+        role="menu"
+        aria-label="{{- t.footer.languageMenuLabel -}}"
+      >
+        {% for link in page.url | locale_links %}
+          <li lang="{{- link.lang -}}" role="menuitem">
+            <a
+              class="text-black underline hover:text-red focus:text-red"
+              href="{{- link.url -}}"
+            >
+              {{- nav.languages[link.lang] -}}
+            </a>
+          </li>
+        {% endfor -%}
+      </ul>
+    {% endif -%}
+  </div>
+</footer>
