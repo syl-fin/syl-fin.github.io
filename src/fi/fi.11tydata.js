@@ -10,7 +10,7 @@ export default {
     footer: {
       languageMenuLabel: "Sivuston kieli",
     },
-    logoAlt: "",
+    logoAlt: "SYLin logo",
     mainID: "sisalto",
     skipToContent: "Siirry sisältöön",
   },

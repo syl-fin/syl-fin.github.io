@@ -10,7 +10,7 @@ export default {
     footer: {
       languageMenuLabel: "Webbplatsens språk",
     },
-    logoAlt: "",
+    logoAlt: "FSF:s logotyp",
     mainID: "innehall",
     skipToContent: "Gå till innehåll",
   },

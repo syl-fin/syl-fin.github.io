@@ -3,7 +3,11 @@ layout: base.njk
 ---
 
 <header class="container mb-10 mt-20 text-center">
-  <img class="mx-auto h-auto w-36 md:w-40" src="/logo.png" />
+  <img
+    alt="{{- t.logoAlt -}}"
+    class="mx-auto h-auto w-36 md:w-40"
+    src="/logo.png"
+  />
 </header>
 <main
   class="prose container text-center md:prose-lg prose-headings:font-sans prose-headings:font-bold hover:prose-a:text-red focus:prose-a:text-red"

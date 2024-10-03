@@ -10,7 +10,7 @@ export default {
     footer: {
       languageMenuLabel: "Site language",
     },
-    logoAlt: "",
+    logoAlt: "SYL’s logo",
     mainID: "main",
     skipToContent: "Skip to contents",
   },
