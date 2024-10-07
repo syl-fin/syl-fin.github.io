@@ -17,6 +17,28 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter(
+    "tUrl",
+    /** @param {string} value, @param {string?} lang */ function (value, lang) {
+      console.log(
+        "The translation was called with the value",
+        value,
+        "and language",
+        lang,
+      );
+      if (lang === this.page.lang) {
+        return value;
+      }
+      const locale = lang ? lang : this.page.lang;
+      console.log("The language was set to", locale);
+      if (value in paths[locale]) {
+        return `${paths[locale][value]}`;
+      }
+      throw new ReferenceError(
+        `Trying to translate the path ${value} to the locale ${locale} but no valid translation was found.`,
+      );
+    },
+  );
+  eleventyConfig.addFilter(
     "makePath",
     /** @param {string} value, @param {string} lang  */ function (value, lang) {
       return `${paths[lang][value]}index.html`;

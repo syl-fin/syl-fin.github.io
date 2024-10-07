@@ -7,11 +7,13 @@ export default {
     title: "SYL",
   },
   t: {
+    accessibilityStatement: "Saavutettavuusseloste",
     footer: {
       languageMenuLabel: "Sivuston kieli",
     },
     logoAlt: "SYLin logo",
     mainID: "sisalto",
     skipToContent: "Siirry sisältöön",
+    toHome: "Etusivulle",
   },
 };

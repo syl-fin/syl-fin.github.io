@@ -24,7 +24,7 @@ layout: base.njk
         aria-label="{{- t.footer.languageMenuLabel -}}"
       >
         {% for link in page.url | locale_links %}
-          <li lang="{{- link.lang -}}" role="menuitem">
+          <li class="my-2" lang="{{- link.lang -}}" role="menuitem">
             <a
               class="text-black underline hover:text-red focus:text-red"
               href="{{- link.url -}}"
@@ -35,5 +35,12 @@ layout: base.njk
         {% endfor -%}
       </ul>
     {% endif -%}
+    <div class="container pb-8 pt-4 text-center">
+      <a
+        class="underline hover:text-red focus:text-red"
+        href="{{- 'accessibility-statement' | tUrl }}"
+        >{{- t.accessibilityStatement -}}</a
+      >
+    </div>
   </div>
 </footer>

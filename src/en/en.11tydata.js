@@ -7,11 +7,13 @@ export default {
     title: "SYL",
   },
   t: {
+    accessibilityStatement: "Accessibility Statement",
     footer: {
       languageMenuLabel: "Site language",
     },
     logoAlt: "SYL’s logo",
     mainID: "main",
     skipToContent: "Skip to contents",
+    toHome: "Back to the home page",
   },
 };

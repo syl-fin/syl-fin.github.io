@@ -3,6 +3,9 @@ layout: base.njk
 ---
 
 <header class="container mb-10 mt-20 text-center">
+  <a class="underline hover:text-red focus:text-red" href="{{- '/' | tUrl -}}"
+    >{{- t.toHome -}}</a
+  >
   <img
     alt="{{- t.logoAlt -}}"
     class="mx-auto h-auto w-36 md:w-40"
@@ -24,7 +27,7 @@ layout: base.njk
         aria-label="{{- t.footer.languageMenuLabel -}}"
       >
         {% for link in page.url | locale_links %}
-          <li lang="{{- link.lang -}}" role="menuitem">
+          <li class="my-2" lang="{{- link.lang -}}" role="menuitem">
             <a
               class="text-black underline hover:text-red focus:text-red"
               href="{{- link.url -}}"
@@ -35,5 +38,12 @@ layout: base.njk
         {% endfor -%}
       </ul>
     {% endif -%}
+    <div class="container pb-8 pt-4 text-center">
+      <a
+        class="underline hover:text-red focus:text-red"
+        href="{{- 'accessibility-statement' | tUrl }}"
+        >{{- t.accessibilityStatement -}}</a
+      >
+    </div>
   </div>
 </footer>
