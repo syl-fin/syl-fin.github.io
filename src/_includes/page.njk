@@ -1,0 +1,39 @@
+---
+layout: base.njk
+---
+
+<header class="container mb-10 mt-20 text-center">
+  <img
+    alt="{{- t.logoAlt -}}"
+    class="mx-auto h-auto w-36 md:w-40"
+    src="/logo.png"
+  />
+  <h1 class="font-sans text-2xl font-bold md:text-4xl">{{- title -}}</h1>
+</header>
+<main
+  class="prose container md:prose-lg prose-headings:font-sans prose-headings:font-bold hover:prose-a:text-red focus:prose-a:text-red"
+>
+  {{ content | safe }}
+</main>
+<footer>
+  <div class="container">
+    {% if page.fileSlug !== "404" -%}
+      <ul
+        class="my-12 flex flex-col items-center md:my-8"
+        role="menu"
+        aria-label="{{- t.footer.languageMenuLabel -}}"
+      >
+        {% for link in page.url | locale_links %}
+          <li lang="{{- link.lang -}}" role="menuitem">
+            <a
+              class="text-black underline hover:text-red focus:text-red"
+              href="{{- link.url -}}"
+            >
+              {{- nav.languages[link.lang] -}}
+            </a>
+          </li>
+        {% endfor -%}
+      </ul>
+    {% endif -%}
+  </div>
+</footer>
