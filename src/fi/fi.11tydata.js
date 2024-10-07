@@ -15,5 +15,6 @@ export default {
     mainID: "sisalto",
     skipToContent: "Siirry sisältöön",
     toHome: "Etusivulle",
+    toListing: "Etusivulle",
   },
 };

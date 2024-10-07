@@ -2,4 +2,19 @@
 layout: base.njk
 ---
 
-{{ content | safe }}
+<header><h1 class="sr-only">{{- title -}}</h1></header>
+<main>{{ content | safe }}</main>
+<footer
+  class="container flex flex-col items-center justify-center pb-8 pt-4 text-center"
+>
+  <a
+    class="my-2 underline hover:text-red focus:text-red"
+    href="{{- 'accessibility-statement' | tUrl }}"
+    >{{- t.accessibilityStatement -}}</a
+  >
+  <a
+    class="my-2 underline hover:text-red focus:text-red"
+    href="{{- '/' | tUrl -}}"
+    >{{- t.toListing -}}</a
+  >
+</footer>

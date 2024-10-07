@@ -15,5 +15,6 @@ export default {
     mainID: "main",
     skipToContent: "Skip to contents",
     toHome: "Back to the home page",
+    toListing: "Back to the home page",
   },
 };

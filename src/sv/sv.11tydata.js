@@ -15,5 +15,6 @@ export default {
     mainID: "innehall",
     skipToContent: "Gå till innehåll",
     toHome: "Tillbaka till hemsidan",
+    toListing: "Tillbaka till hemsidan",
   },
 };
