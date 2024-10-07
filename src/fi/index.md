@@ -20,4 +20,6 @@ ylioppilaskunnan kotisivuilta edellä olevien linkkien kautta.
 
 Vaalikoneet tarjoaa [Suomen ylioppilaskuntien liitto (SYL)](https://syl.fi).
 
-<!-- Alta löydät oman ylioppilaskuntasi edustajistovaalien vaalikoneen. -->
+Alta löydät oman ylioppilaskuntasi edustajistovaalien vaalikoneen.
+
+[Svenska Handelshögskolans Studentkår (SHS)](/shs/)
