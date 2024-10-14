@@ -22,4 +22,5 @@ Vaalikoneet tarjoaa [Suomen ylioppilaskuntien liitto (SYL)](https://syl.fi).
 
 Alta löydät oman ylioppilaskuntasi edustajistovaalien vaalikoneen.
 
-[Svenska Handelshögskolans Studentkår (SHS)](/shs/)
+- [Helsingin yliopiston ylioppilaskunta (HYY)](/hyy/)
+- [Svenska Handelshögskolans Studentkår (SHS)](/shs/)

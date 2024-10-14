@@ -21,4 +21,5 @@ elections through the links above.
 The election compasses are provided by
 [National Union of University Students in Finland (SYL)](https://syl.fi/en/).
 
-[The Student Union of Hanken School of Economics (SHS)](/en/shs/)
+- [The Student Union of the University of Helsinki (HYY)](/en/hyy/)
+- [The Student Union of Hanken School of Economics (SHS)](/en/shs/)

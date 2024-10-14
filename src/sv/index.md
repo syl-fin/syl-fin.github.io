@@ -22,4 +22,5 @@ fullmäktige och valet på studentkårens webbplats via länkarna ovan.
 Valkompasserna levereras av
 [Finlands studentkårers förbund (FSF)](https://syl.fi/sv/).
 
-[Svenska Handelshögskolans Studentkår (SHS)](/sv/shs/)
+- [Studentkåren vid Helsingfors universitet (HUS)](/sv/hus/)
+- [Svenska Handelshögskolans Studentkår (SHS)](/sv/shs/)
