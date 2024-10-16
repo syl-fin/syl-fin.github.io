@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "eleventy",
+    "build": "rm -rf _site && eleventy",
     "dev": "eleventy --serve",
     "format": "prettier --write \"**/*.{html,js?(on),md,njk}\""
   },

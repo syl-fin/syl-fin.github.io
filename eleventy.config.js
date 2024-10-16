@@ -2,16 +2,34 @@ import { EleventyI18nPlugin } from "@11ty/eleventy";
 import autoprefixer from "autoprefixer";
 import cssnano from "cssnano";
 import htmlmin from "html-minifier-terser";
+import crypto from "node:crypto";
+import fs from "node:fs";
+import path from "node:path";
 import postcss from "postcss";
 import tailwindcss from "tailwindcss";
 import paths from "./src/_data/paths.js";
 
+async function createFileHash(inputPath) {
+  try {
+    const data = fs.readFileSync(inputPath, "utf-8");
+    const processed = (
+      await postcss([
+        tailwindcss,
+        autoprefixer,
+        ...(process.env.NODE_ENV === "production" ? [cssnano] : []),
+      ]).process(data, {
+        from: inputPath,
+      })
+    ).css;
+    const hash = crypto.createHash("sha256").update(processed).digest("hex");
+    return hash;
+  } catch (err) {
+    console.error(err);
+  }
+}
+
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default function (eleventyConfig) {
-  // eleventyConfig.ignores.add("src/en/shs.njk");
-  // eleventyConfig.ignores.add("src/fi/shs.njk");
-  // eleventyConfig.ignores.add("src/sv/shs.njk");
-
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "fi",
   });
@@ -42,6 +60,19 @@ export default function (eleventyConfig) {
     "makePath",
     /** @param {string} value, @param {string} lang  */ function (value, lang) {
       return `${paths[lang][value]}index.html`;
+    },
+  );
+  eleventyConfig.addFilter(
+    "hash",
+    /** @param {string} filename */ async function (filename) {
+      const inputFile = path.join("src", filename);
+      console.log("The file to be hashed via the filter is", inputFile);
+      const hash = await createFileHash(inputFile);
+      console.log(
+        "Going to write the filename",
+        `${filename.substring(0, filename.lastIndexOf("."))}.${hash}.css`,
+      );
+      return `${filename.substring(0, filename.lastIndexOf("."))}.${hash}.css`;
     },
   );
 
@@ -83,8 +114,13 @@ export default function (eleventyConfig) {
       };
     },
     compileOptions: {
-      permalink: function (_, inputPath) {
-        return inputPath.substring(inputPath.lastIndexOf("/") + 1);
+      permalink: async function (_, inputPath) {
+        const filename = inputPath.substring(
+          inputPath.lastIndexOf("/") + 1,
+          inputPath.lastIndexOf("."),
+        );
+        const hash = await createFileHash(inputPath);
+        return `${filename}.${hash}.css`;
       },
     },
   });
