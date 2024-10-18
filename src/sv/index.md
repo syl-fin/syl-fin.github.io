@@ -24,3 +24,4 @@ Valkompasserna levereras av
 
 - [Studentkåren vid Helsingfors universitet (HUS)](/sv/hus/)
 - [Svenska Handelshögskolans Studentkår (SHS)](/sv/shs/)
+- [Tampereen ylioppilaskunta (TREY)](/sv/trey/)

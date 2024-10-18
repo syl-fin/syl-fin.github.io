@@ -23,3 +23,4 @@ The election compasses are provided by
 
 - [The Student Union of the University of Helsinki (HYY)](/en/hyy/)
 - [The Student Union of Hanken School of Economics (SHS)](/en/shs/)
+- [The Student Union of Tampere University (TREY)](/en/trey/)

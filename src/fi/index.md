@@ -24,3 +24,4 @@ Alta löydät oman ylioppilaskuntasi edustajistovaalien vaalikoneen.
 
 - [Helsingin yliopiston ylioppilaskunta (HYY)](/hyy/)
 - [Svenska Handelshögskolans Studentkår (SHS)](/shs/)
+- [Tampereen ylioppilaskunta (TREY)](/trey/)
