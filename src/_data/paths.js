@@ -9,6 +9,7 @@ export default {
   fi: {
     "/": "/",
     "accessibility-statement": "/saavutettavuusseloste/",
+    "09bd303a": "/09bd303a/",
     hyy: "/hyy/",
     shs: "/shs/",
     trey: "/trey/",
