@@ -3,7 +3,7 @@ changefreq: weekly
 date: git Last Modified
 layout: home.njk
 permalink: '{{ "/" | makePath("fi") }}'
-title: Edustajistovaalien vaalikone 2024
+title: Edustajistovaalien vaalikone 2025
 ---
 
 ## Tervetuloa edustajistovaalien vaalikoneeseen 2025

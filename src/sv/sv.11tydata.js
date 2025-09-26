@@ -3,7 +3,7 @@ export default {
   lang: "sv",
   site: {
     description:
-      "Valkompass för studentkårers delegations- och fullmäktigeval 2024 som underhålls av Finlands studentkårers förbund (FSF)",
+      "Valkompass för studentkårers delegations- och fullmäktigeval 2025 som underhålls av Finlands studentkårers förbund (FSF)",
     title: "FSF",
   },
   t: {

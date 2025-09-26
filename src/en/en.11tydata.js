@@ -3,7 +3,7 @@ export default {
   lang: "en",
   site: {
     description:
-      "Election compass for the student unions' representative and student council elections 2024, provided by National Union of University Students in Finland (SYL)",
+      "Election compass for the student unions' representative and student council elections 2025, provided by National Union of University Students in Finland (SYL)",
     title: "SYL",
   },
   t: {

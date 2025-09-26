@@ -3,7 +3,7 @@ export default {
   lang: "fi",
   site: {
     description:
-      "Suomen ylioppilaskuntien liiton (SYL) ylläpitämä edustajistovaalien vaalikone 2024",
+      "Suomen ylioppilaskuntien liiton (SYL) ylläpitämä edustajistovaalien vaalikone 2025",
     title: "SYL",
   },
   t: {
