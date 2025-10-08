@@ -18,4 +18,5 @@ Valkompasserna levereras av
 
 Valkompasserna:
 
+- [HUS](/sv/hus/)
 - [SHS](/sv/shs/)

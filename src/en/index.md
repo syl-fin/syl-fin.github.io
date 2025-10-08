@@ -19,4 +19,5 @@ The election compasses are provided by
 
 Election compasses:
 
+- [HYY](/en/hyy/)
 - [SHS](/en/shs/)
