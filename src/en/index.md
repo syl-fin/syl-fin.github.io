@@ -17,4 +17,6 @@ about your student union’s elections from your student unions website.
 The election compasses are provided by
 [National Union of University Students in Finland (SYL)](https://syl.fi/en/).
 
-You can find the elections compasses here when they are published.
+Election compasses:
+
+- [SHS](/en/shs/)

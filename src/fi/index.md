@@ -16,4 +16,6 @@ edustajistovaaleista ylioppilaskuntasi kotisivuilta.
 
 Vaalikoneet tarjoaa [Suomen ylioppilaskuntien liitto (SYL)](https://syl.fi).
 
-Linkit vaalikoneisiin tulevat tähän, kun koneet julkaistaan.
+Vaalikoneet:
+
+- [SHS](/shs/)

@@ -16,4 +16,6 @@ mer om din studentkårs delegation och val på din studentkårs webbplats.
 Valkompasserna levereras av
 [Finlands studentkårers förbund (FSF)](https://syl.fi/sv/).
 
-Du kan hitta valkompasserna här när de publiceras.
+Valkompasserna:
+
+- [SHS](/sv/shs/)
