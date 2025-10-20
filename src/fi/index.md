@@ -19,4 +19,8 @@ Vaalikoneet tarjoaa [Suomen ylioppilaskuntien liitto (SYL)](https://syl.fi).
 Vaalikoneet:
 
 - [HYY](/hyy/)
-- [SHS](/shs/)
+- [ISYY](/isyy/)
+- [LYY](/lyy/)
+- [TREY](/trey/)
+- [TYY](/tyy/)
+- [ÅAS](/sv/aas/)

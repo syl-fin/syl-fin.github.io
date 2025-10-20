@@ -19,4 +19,8 @@ Valkompasserna levereras av
 Valkompasserna:
 
 - [HUS](/sv/hus/)
-- [SHS](/sv/shs/)
+- [ISYY](/isyy/)
+- [LYY](/lyy/)
+- [TREY](/trey/)
+- [TYY](/tyy/)
+- [ÅAS](/sv/aas/)

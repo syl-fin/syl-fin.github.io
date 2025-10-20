@@ -3,8 +3,12 @@ export default {
     "/": "/en/",
     "accessibility-statement": "/en/accessibility-statement/",
     hyy: "/en/hyy/",
-    shs: "/en/shs/",
+    isyy: "/en/isyy/",
+    lyy: "/en/lyy/",
     trey: "/en/trey/",
+    tyy: "/en/tyy/",
+    aas: "/en/aas/",
+    shs: "/en/shs/",
   },
   fi: {
     "/": "/",
@@ -12,7 +16,11 @@ export default {
     "09bd303a": "/09bd303a/",
     hyy: "/hyy/",
     shs: "/shs/",
+    isyy: "/isyy/",
+    lyy: "/lyy/",
     trey: "/trey/",
+    tyy: "/tyy/",
+    aas: "/aas/",
   },
   sv: {
     "/": "/sv/",
@@ -20,5 +28,6 @@ export default {
     hyy: "/sv/hus/",
     shs: "/sv/shs/",
     trey: "/sv/trey/",
+    aas: "/sv/aas/",
   },
 };

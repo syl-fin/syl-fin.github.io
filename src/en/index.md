@@ -20,4 +20,8 @@ The election compasses are provided by
 Election compasses:
 
 - [HYY](/en/hyy/)
-- [SHS](/en/shs/)
+- [ISYY](/en/isyy/)
+- [LYY](/en/lyy/)
+- [TREY](/en/trey/)
+- [TYY](/en/tyy/)
+- [ÅAS](/en/aas/)
