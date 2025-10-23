@@ -49,6 +49,10 @@
       {% endfor %}
     {% endif %}
 
+    {% if redirect %}
+      <meta http-equiv="Refresh" content="0; url='{{ redirect }}'" />
+    {% endif %}
+
     <meta property="og:title" content="{{ title }} - {{ site.title }}" />
     {% if description %}
       <meta property="og:description" content="{{ description }}" />

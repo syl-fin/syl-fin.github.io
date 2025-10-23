@@ -20,6 +20,7 @@ Valkompasserna:
 
 - [HUS](/sv/hus/)
 - [ISYY](/isyy/)
+- [JYY](https://jyy-vaa-2025-frontend.onrender.com/)
 - [LYY](/lyy/)
 - [TREY](/trey/)
 - [TYY](/tyy/)

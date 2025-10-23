@@ -17,6 +17,7 @@ export default {
     hyy: "/hyy/",
     shs: "/shs/",
     isyy: "/isyy/",
+    jyy: "/jyy/",
     lyy: "/lyy/",
     trey: "/trey/",
     tyy: "/tyy/",
