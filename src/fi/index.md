@@ -24,4 +24,5 @@ Vaalikoneet:
 - [LYY](/lyy/)
 - [TREY](/trey/)
 - [TYY](/tyy/)
+- [VYY](https://vyy-vaa-2025-frontend.onrender.com/)
 - [ÅAS](/sv/aas/)

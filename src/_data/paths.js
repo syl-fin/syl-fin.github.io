@@ -23,6 +23,7 @@ export default {
     lyy: "/lyy/",
     trey: "/trey/",
     tyy: "/tyy/",
+    vyy: "/vyy/",
     aas: "/aas/",
   },
   sv: {
