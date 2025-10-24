@@ -2,6 +2,7 @@ export default {
   en: {
     "/": "/en/",
     "accessibility-statement": "/en/accessibility-statement/",
+    ayy: "/en/ayy/",
     hyy: "/en/hyy/",
     isyy: "/en/isyy/",
     lyy: "/en/lyy/",
@@ -14,6 +15,7 @@ export default {
     "/": "/",
     "accessibility-statement": "/saavutettavuusseloste/",
     "09bd303a": "/09bd303a/",
+    ayy: "/ayy/",
     hyy: "/hyy/",
     shs: "/shs/",
     isyy: "/isyy/",
@@ -26,6 +28,7 @@ export default {
   sv: {
     "/": "/sv/",
     "accessibility-statement": "/sv/tillganglighetsutlatande/",
+    ayy: "/sv/aus/",
     hyy: "/sv/hus/",
     shs: "/sv/shs/",
     trey: "/sv/trey/",
