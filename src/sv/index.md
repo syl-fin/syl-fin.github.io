@@ -18,7 +18,7 @@ Valkompasserna levereras av
 
 Valkompasserna:
 
-- [HUS](/sv/hus/)
+- [AUS](/sv/aus/)
 - [ISYY](/isyy/)
 - [JYY](https://jyy-vaa-2025-frontend.onrender.com/)
 - [LYY](/lyy/)
