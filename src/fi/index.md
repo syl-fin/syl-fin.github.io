@@ -21,6 +21,7 @@ Vaalikoneet:
 - [AYY](/ayy/)
 - [ISYY](/isyy/)
 - [JYY](https://jyy-vaa-2025-frontend.onrender.com/)
+- [LTKY](/ltky/)
 - [LYY](/lyy/)
 - [TREY](/trey/)
 - [TYY](/tyy/)

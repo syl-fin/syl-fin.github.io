@@ -22,6 +22,7 @@ Election compasses:
 - [AYY](/en/ayy/)
 - [ISYY](/en/isyy/)
 - [JYY](https://jyy-vaa-2025-frontend.onrender.com/)
+- [LTKY](/en/ltky/)
 - [LYY](/en/lyy/)
 - [TREY](/en/trey/)
 - [TYY](/en/tyy/)
