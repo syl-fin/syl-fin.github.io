@@ -23,6 +23,7 @@ Vaalikoneet:
 - [JYY](https://jyy-vaa-2025-frontend.onrender.com/)
 - [LTKY](/ltky/)
 - [LYY](/lyy/)
+- [OYY](/oyy/)
 - [TREY](/trey/)
 - [TYY](/tyy/)
 - [VYY](https://vyy-vaa-2025-frontend.onrender.com/)

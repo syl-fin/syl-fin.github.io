@@ -24,6 +24,7 @@ Election compasses:
 - [JYY](https://jyy-vaa-2025-frontend.onrender.com/)
 - [LTKY](/en/ltky/)
 - [LYY](/en/lyy/)
+- [OYY](/en/oyy/)
 - [TREY](/en/trey/)
 - [TYY](/en/tyy/)
 - [VYY](https://vyy-vaa-2025-frontend.onrender.com/)
