@@ -19,6 +19,7 @@ The election compasses are provided by
 
 Election compasses:
 
+- [ArtSU](/en/artsu/)
 - [AYY](/en/ayy/)
 - [ISYY](/en/isyy/)
 - [JYY](https://jyy-vaa-2025-frontend.onrender.com/)

@@ -21,6 +21,7 @@ Valkompasserna:
 - [AUS](/sv/aus/)
 - [ISYY](/isyy/)
 - [JYY](https://jyy-vaa-2025-frontend.onrender.com/)
+- [KonSt](/sv/konst/)
 - [LTKY](/ltky/)
 - [LYY](/lyy/)
 - [OYY](/oyy/)
